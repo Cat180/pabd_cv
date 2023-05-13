@@ -9,5 +9,5 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run(port=1234)         # Your personal 4 digits
+    app.run(port=1779)         # Your personal 4 digits
     input()

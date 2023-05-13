@@ -4,3 +4,5 @@ tk
 flask
 requests
 numpy
+pylint
+jupyter
