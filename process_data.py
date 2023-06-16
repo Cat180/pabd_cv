@@ -13,7 +13,7 @@ import PIL
 @click.option('-i', '--in_dir', default='data/raw/kaggle/train')
 @click.option('-o', '--out_dir', default='data/processed/PetImages')
 @click.option('-n', '--n_img', default=20)
-@click.option('-s', '--img_size', default=180)
+@click.option('-s', '--img_size', default=120)
 
 def process_data(in_dir, out_dir, n_img, img_size):
     make_out_dir(out_dir)
